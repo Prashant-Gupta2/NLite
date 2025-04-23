@@ -1,0 +1,104 @@
+.about-section {
+          background-color: #0b1d3a;
+          color: #f5f5f5;
+          padding: 3rem 2rem;
+      
+        }
+        
+        .about-flex {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 2rem;
+        }
+        
+        .about-content {
+          flex: 1;
+          min-width: 300px;
+        }
+        
+        .about-content h1 {
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+          color: #ffffff;
+        }
+        
+        .about-content p {
+          font-size: 1.1rem;
+          margin-bottom: 1rem;
+          color: #dcdcdc;
+          line-height: 1.6;
+        }
+        
+        .about-content button {
+          background-color: #00d8ff;
+          color: #0b1d3a;
+          border: none;
+          padding: 0.8rem 1.5rem;
+          font-weight: bold;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        
+        .about-content button:hover {
+          background-color: #00c0e4;
+        }
+        
+        .about-images-grid {
+          flex: 1;
+          min-width: 300px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+        }
+        
+        .about-images-grid img {
+          width: 100%;
+          border-radius: 8px;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+          object-fit: cover;
+        }
+        .about-extra-section {
+          background-color: #f8f9fc;
+          padding: 3rem 2rem;
+        }
+        
+        .about-extra-flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 2rem;
+        }
+        
+        .about-extra-image {
+          flex: 1;
+          min-width: 300px;
+        }
+        
+        .about-extra-image img {
+          width: 100%;
+          border-radius: 8px;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-extra-content {
+          flex: 1;
+          min-width: 300px;
+        }
+        
+        .about-extra-content h2 {
+          font-size: 2rem;
+          color: #0b1d3a;
+          margin-bottom: 1rem;
+        }
+        
+        .about-extra-content p {
+          font-size: 1.1rem;
+          color: #333;
+          line-height: 1.6;
+          margin-bottom: 1rem;
+        }
+        
